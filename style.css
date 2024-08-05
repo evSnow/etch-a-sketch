@@ -1,0 +1,24 @@
+*{
+    background: antiquewhite;
+}
+
+#container{
+    display:flex;
+    background: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid maroon;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 960px ;
+    height: 700px;
+    align-items: start;
+    justify-content: center;
+}
+.box{
+    display:flex;
+    background: gold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
