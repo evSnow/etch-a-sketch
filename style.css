@@ -1,24 +1,34 @@
 *{
-    background: antiquewhite;
+    background: rgb(255, 255, 255);
 }
 
 #container{
     display:flex;
-    background: palevioletred;
+    background: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
     border: 6px solid maroon;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 960px ;
-    height: 700px;
-    align-items: start;
+    width: 1000px ;
+    height: 1030px;
+    align-items: center;
     justify-content: center;
 }
 .box{
     display:flex;
-    background: gold;
+    background: rgb(17, 0, 255);
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+.reset{
+    width: 70px;
+    height: 30px;
+    align-items: start;
+    justify-content: start;
+
+}
+.titles{
+    background: aliceblue;
 }
